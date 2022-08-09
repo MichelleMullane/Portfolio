@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Michelle Mullane | About</title>
+    <meta
+      name="description"
+      content="Michelle Mullane is a frontend developer based in the eastern United States.  Learn more about her journey on this About page."
+    />
+    <title>Michelle Mullane | About Me</title>
     <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
@@ -32,6 +36,31 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/Michelle-Mullane-logos/Michelle Mullane-logos_transparent_crop.png"
+            class="logo"
+            alt="Michelle Mullane logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Me">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Work Portfolio Page">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Page">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -64,10 +93,65 @@
           <img
             src="images/profile.jpeg"
             class="img-fluid about-section-image"
-            alt=""
+            alt="Michelle Mullane profile picture"
           />
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together!</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding"
+            title="Contact Michelle"
+            >Contact me</a
+          >
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:michelle.a.mullane@gmail.com"
+          class="email-link"
+          title="Email Michelle"
+          >michelle.a.mullane@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://github.com/MichelleMullane"
+          target="_blank"
+          title="Michelle's GitHub Profile"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/michelle-mullane/"
+          target="_blank"
+          title="Michelle's LinkedIn Profile"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a
+          href="https://twitter.com/michelleMCodes"
+          target="_blank"
+          title="Michelle's Twitter Profile"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+      </div>
+      <p class="text-center mt-5">
+        👉 This project was coded by Michelle Mullane, and it is
+        <a
+          href="https://github.com/MichelleMullane/portfolio-site"
+          target="_blank"
+          >open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>

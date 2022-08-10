@@ -126,6 +126,10 @@ p {
   max-height: 75px;
 }
 
+a img:hover {
+  border: 1px solid var(--branding-color);
+}
+
 nav {
   padding: 20px 0;
 }
@@ -151,6 +155,13 @@ nav a {
 nav a:hover,
 nav li.active a {
   color: var(--branding-color);
+}
+
+.tech-icons {
+  color: var(--tertiary-color);
+  padding: 0 5px;
+  font-size: 20px;
+  border-radius: 50%;
 }
 
 footer {

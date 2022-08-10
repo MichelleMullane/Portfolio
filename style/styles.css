@@ -1,14 +1,15 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
-  --heading-font-family: "Playfair Display", serif;
-  --default-font-family: "Poppins", sans-serif;
+  --branding-color: #5365a1;
+  --secondary-color: #dde3f6;
+  --tertiary-color: #272142;
+  --heading-font-family: "Lato", sans-serif;
+  --default-font-family: "Allan", cursive;
 }
 
 h1,
 h2,
 h3 {
-  color: black;
+  color: var(--branding-color);
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
@@ -22,7 +23,12 @@ h2 {
 }
 
 h3 {
-  font-size: 48px;
+  font-size: 36px;
+}
+
+h4 {
+  font-family: var(--default-font-family);
+  color: var(--tertiary-color);
 }
 
 p {
@@ -42,7 +48,7 @@ p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #272142;
+  color: var(--branding-color);
 }
 
 .hero h2 {
@@ -62,7 +68,7 @@ p {
 }
 
 .content h2 {
-  font-size: 18px;
+  font-size: 30px;
   font-family: var(--default-font-family);
 }
 
@@ -81,6 +87,10 @@ p {
   margin: 30px;
 }
 
+.about-section-text h2 {
+  font-size: 20px;
+}
+
 .about-section-image {
   border-radius: 12px;
 }
@@ -92,6 +102,11 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-branding:hover {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
 }
 
 .btn-branding-outline {
@@ -109,7 +124,6 @@ p {
 
 .logo {
   max-height: 75px;
-  /* lato regular font  */
 }
 
 nav {
@@ -130,7 +144,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #272142;
+  color: var(--tertiary-color);
   transition: all 100ms ease-in-out;
 }
 

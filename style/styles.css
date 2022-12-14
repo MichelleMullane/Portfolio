@@ -237,3 +237,8 @@ footer .social-links a:hover {
     padding: 30px;
   }
 }
+
+.socket-icon {
+  max-width: 22px;
+  padding-bottom: 5px;
+}

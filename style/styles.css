@@ -164,6 +164,26 @@ nav li.active a {
   border-radius: 50%;
 }
 
+.img-icons {
+  max-width: 22px;
+  padding-bottom: 5px;
+}
+
+.dyfo-thumbnail {
+  padding: 22% 0;
+  background-color: #dde3f6;
+}
+
+.gg-thumbnail {
+  padding: 24.5% 0;
+  background-color: #dde3f6;
+}
+
+.com-pear-thumbnail {
+  padding: 20.5% 0;
+  background-color: #dde3f6;
+}
+
 footer {
   margin: 60px 0;
 }
@@ -238,17 +258,8 @@ footer .social-links a:hover {
   }
 }
 
-.img-icons {
-  max-width: 22px;
-  padding-bottom: 5px;
-}
-
-.dyfo-thumbnail {
-  padding: 22% 0;
-  background-color: #dde3f6;
-}
-
-.gg-thumbnail {
-  padding: 24.5% 0;
-  background-color: #dde3f6;
+@media (max-width: 1200px) {
+  .btn-branding-outline {
+    margin-top: 5px;
+  }
 }
